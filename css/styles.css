@@ -1,0 +1,143 @@
+:root {
+  scroll-behavior: smooth;
+  --clr-title: #333;
+  --clr-subtitle: #666;
+  --clr-white: #eee;
+  --clr-skyblue: #399ff7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #eee;
+}
+
+/* ========== Section Header ========== */
+header {
+  width: 700px;
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.header__h1 {
+  margin-bottom: 0.5rem;
+  color: var(--clr-title);
+}
+
+.header__p {
+  margin-bottom: 2rem;
+  color: var(--clr-subtitle);
+  font-weight: bold;
+}
+
+.header__socials {
+  width: 700px;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.header__social {
+  font-size: 2em;
+  color: var(--clr-subtitle);
+}
+
+/* ========== Section Details ========== */
+.section {
+  width: 450px;
+  margin: 0 auto;
+
+  border: 1px solid red;
+}
+
+.section__details {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.section__col {
+  width: 150px;
+  text-align: center;
+}
+
+.section__h2 {
+  color: var(--clr-title);
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.section__h3 {
+  color: var(--clr-subtitle);
+}
+
+.section__buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section__cv {
+  width: 50%;
+  margin-right: 6rem;
+  padding: 1.25rem 2.5rem;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: var(--clr-white);
+  background-color: var(--clr-skyblue);
+  box-shadow: 0 0px 10px #777;
+  transition: 0.4s;
+}
+
+.section__cv:hover {
+  background-color: #4fa7f5;
+}
+
+.section__wp {
+  width: 50px;
+  height: 50px;
+  margin-right: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  color: var(--clr-title);
+  background-color: #ccc;
+  box-shadow: 0 0px 5px #999;
+  transition: 0.4s;
+}
+
+.section__fb {
+  width: 50px;
+  height: 50px;
+  padding: 1rem;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  color: var(--clr-title);
+  background-color: #ccc;
+  box-shadow: 0 0px 5px #999;
+  transition: 0.4s;
+}
+
+.section__wp:hover,
+.section__fb:hover {
+  background-color: #dfdddd;
+  box-shadow: 0 0px 5px #bbb;
+}

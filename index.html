@@ -14,17 +14,64 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- Custom JS -->
+    <script defer src="./js/main.js"></script>
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <!-- Header -->
-    <header>
-      <div class="user">
-        <img src="" alt="Imagen de usuario" />
-        <h1 class="user__h1">Marco Antonio</h1>
-        <h2 class="user__h2">Frontend Developer</h2>
+    <!-- ========== Section Header ========== -->
+    <header class="header">
+      <img
+        src="./assets/img/profile.jpg"
+        alt="Foto de perfil"
+        class="header__img"
+      />
+
+      <h1 class="header__h1">Marco Antonio</h1>
+      <p class="header__p">Frontend Developer</p>
+
+      <div class="header__socials">
+        <i class="fa-brands fa-linkedin header__social"></i>
+        <i class="fa-brands fa-github header__social"></i>
+        <i class="fa-brands fa-instagram header__social"></i>
       </div>
     </header>
+
+    <!-- ========== Section Details ========== -->
+    <section class="section">
+      <div class="section__details">
+        <div class="section__col">
+          <h2 class="section__h2">7</h2>
+          <h3 class="section__h3">Years of work</h3>
+        </div>
+
+        <div class="section__col">
+          <h2 class="section__h2">+128</h2>
+          <h3 class="section__h3">Completed projects</h3>
+        </div>
+
+        <div class="section__col">
+          <h2 class="section__h2">96</h2>
+          <h3 class="section__h3">Satisfied customers</h3>
+        </div>
+      </div>
+
+      <div class="section__buttons">
+        <a href="#" class="section__cv">
+          Download CV
+          <i class="fa-solid fa-arrow-down"></i>
+        </a>
+
+        <div class="section__chats">
+          <a href="#" class="section__wp">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+          <a href="#" class="section__fb">
+            <i class="fa-brands fa-facebook-messenger"></i>
+          </a>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
