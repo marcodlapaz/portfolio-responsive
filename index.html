@@ -14,8 +14,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <!-- Custom JS -->
-    <script defer src="./js/main.js"></script>
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
@@ -32,9 +30,15 @@
       <p class="header__p">Frontend Developer</p>
 
       <div class="header__socials">
-        <i class="fa-brands fa-linkedin header__social"></i>
-        <i class="fa-brands fa-github header__social"></i>
-        <i class="fa-brands fa-instagram header__social"></i>
+        <a href="https://www.linkedin.com/in/marcodlapaz/" target="_blank">
+          <i class="fa-brands fa-linkedin header__social"></i>
+        </a>
+        <a href="https://github.com/marcodlapaz" target="_blank">
+          <i class="fa-brands fa-github header__social"></i>
+        </a>
+        <a href="https://www.instagram.com/marcodlapaz/" target="_blank">
+          <i class="fa-brands fa-instagram header__social"></i>
+        </a>
       </div>
     </header>
 
@@ -42,36 +46,115 @@
     <section class="section">
       <div class="section__details">
         <div class="section__col">
-          <h2 class="section__h2">7</h2>
+          <h2 class="section__h2">2</h2>
           <h3 class="section__h3">Years of work</h3>
         </div>
 
         <div class="section__col">
-          <h2 class="section__h2">+128</h2>
+          <h2 class="section__h2">+30</h2>
           <h3 class="section__h3">Completed projects</h3>
         </div>
 
         <div class="section__col">
-          <h2 class="section__h2">96</h2>
+          <h2 class="section__h2">20</h2>
           <h3 class="section__h3">Satisfied customers</h3>
         </div>
       </div>
 
       <div class="section__buttons">
-        <a href="#" class="section__cv">
+        <a
+          href="./assets/CV-Marco-Antonio-Valencia.txt"
+          download="CV-Marco-Antonio-Valencia.txt"
+          class="section__cv"
+        >
           Download CV
           <i class="fa-solid fa-arrow-down"></i>
         </a>
 
         <div class="section__chats">
-          <a href="#" class="section__wp">
+          <a
+            href="https://wa.me/59167135599"
+            class="section__wp"
+            target="_blank"
+          >
             <i class="fa-brands fa-whatsapp"></i>
           </a>
-          <a href="#" class="section__fb">
+          <a
+            href="https://www.facebook.com/marcodlap4z/"
+            target="_blank"
+            class="section__fb"
+          >
             <i class="fa-brands fa-facebook-messenger"></i>
           </a>
         </div>
       </div>
     </section>
+
+    <!-- ========== Section Projects ========== -->
+    <section class="projects">
+      <div class="tabs">
+        <p class="tabs__tab">Projects</p>
+        <p class="tabs__tab tabs__tab--inactive">Skills</p>
+      </div>
+
+      <div class="projects__row">
+        <div class="projects__card">
+          <img
+            src="./assets/img/project1.jpg"
+            alt="Miniatura del proyecto"
+            class="projects__img"
+          />
+        </div>
+
+        <div class="projects__card">
+          <img
+            src="./assets/img/project2.jpg"
+            alt="Miniatura del proyecto"
+            class="projects__img"
+          />
+        </div>
+      </div>
+
+      <div class="projects__row">
+        <div class="projects__card">
+          <img
+            src="./assets/img/project3.jpg"
+            alt="Miniatura del proyecto"
+            class="projects__img"
+          />
+        </div>
+
+        <div class="projects__card">
+          <img
+            src="./assets/img/project4.jpg"
+            alt="Miniatura del proyecto"
+            class="projects__img"
+          />
+        </div>
+      </div>
+
+      <div class="projects__row">
+        <div class="projects__card">
+          <img
+            src="./assets/img/project5.jpg"
+            alt="Miniatura del proyecto"
+            class="projects__img"
+          />
+        </div>
+
+        <div class="projects__card">
+          <img
+            src="./assets/img/project6.jpg"
+            alt="Miniatura del proyecto"
+            class="projects__img"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== Section Footer ========== -->
+    <footer class="footer">
+      <p class="footer__p">&copy; Desarrollado por Marco Antonio Valencia 😉</p>
+    </footer>
   </body>
 </html>
